@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Manipulando o DOM</h1>
+        <img src="js1.png" onmouseover="trocaImagem()" onmouseout="voltaImagem()">
+        <a href=""></a>
+
+        <form>
+            <label for="club">Nome do time:</label>
+            <input type="text" id="club">
+            <button type="button" onclick="adicionar()">Adicionar</button>
+            <br><br>
+            <label for="clubRemove">Nome do time:</label>
+            <input type="text" id="clubRemove">
+            <button type="button" onclick="remover()">Remover</button>
+            <br><br>
+            
+            
+            <h3>Lista de times</h3>
+             
+            <ol id="listaClubs">
+
+            </ol>
+        </form>
+
+    </header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <div>
+        <h2>Título 2</h2>
+    </div>
+    <h2 class="fundoAzul">Título 3</h2>
+
+    <h4>Manipulando Classes</h4>
+    <button type="button" id="btnClasse">Classe</button>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
