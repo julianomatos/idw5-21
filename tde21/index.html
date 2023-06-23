@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+
+    <form>
+        <label for="tarefa">Nome da tarefa</label>
+        <input type="text" id="tarefa">
+        <button type="button" onclick="inserir()">Adicionar</button>
+        <h2>Tarefas Pendentes</h2>
+        <ol id="pendentes">
+
+        </ol>
+
+        <h2>Tarefas Concluídas</h2>
+        <ol id="concluidas">
+
+        </ol>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
